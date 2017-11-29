@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\app\srs_app_async_call.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_bandwidth.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_caster_flv.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_config.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_conn.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_dvr.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_edge.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_empty.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_encoder.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_ffmpeg.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_forward.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_hds.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_heartbeat.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_hls.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_http_api.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_http_client.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_http_conn.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_http_hooks.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_http_static.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_http_stream.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_ingest.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_listener.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_log.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_mpegts_udp.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_pithy_print.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_recv_thread.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_refer.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_reload.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_rtmp_conn.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_rtsp.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_security.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_server.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_source.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_st.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_statistic.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_thread.cpp" />
+    <ClCompile Include="..\..\src\app\srs_app_utility.cpp" />
+    <ClCompile Include="..\..\src\core\srs_core.cpp" />
+    <ClCompile Include="..\..\src\core\srs_core_autofree.cpp" />
+    <ClCompile Include="..\..\src\core\srs_core_mem_watch.cpp" />
+    <ClCompile Include="..\..\src\core\srs_core_performance.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_aac.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_buffer.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_codec.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_consts.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_error.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_file.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_flv.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_log.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_mp3.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_stream.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_ts.cpp" />
+    <ClCompile Include="..\..\src\kernel\srs_kernel_utility.cpp" />
+    <ClCompile Include="..\..\src\libs\srs_librtmp.cpp" />
+    <ClCompile Include="..\..\src\libs\srs_lib_bandwidth.cpp" />
+    <ClCompile Include="..\..\src\libs\srs_lib_simple_socket.cpp" />
+    <ClCompile Include="..\..\src\main\srs_main_ingest_hls.cpp" />
+    <ClCompile Include="..\..\src\main\srs_main_server.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_http_stack.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_protocol_buffer.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_protocol_json.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_protocol_kbps.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_raw_avc.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_rtmp_amf0.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_rtmp_handshake.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_rtmp_io.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_rtmp_msg_array.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_rtmp_stack.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_rtmp_utility.cpp" />
+    <ClCompile Include="..\..\src\protocol\srs_rtsp_stack.cpp" />
+    <ClCompile Include="..\..\src\utest\srs_utest.cpp" />
+    <ClCompile Include="..\..\src\utest\srs_utest_amf0.cpp" />
+    <ClCompile Include="..\..\src\utest\srs_utest_config.cpp" />
+    <ClCompile Include="..\..\src\utest\srs_utest_core.cpp" />
+    <ClCompile Include="..\..\src\utest\srs_utest_kernel.cpp" />
+    <ClCompile Include="..\..\src\utest\srs_utest_protocol.cpp" />
+    <ClCompile Include="..\..\src\utest\srs_utest_reload.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\app\srs_app_async_call.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_bandwidth.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_caster_flv.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_config.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_conn.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_dvr.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_edge.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_empty.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_encoder.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_ffmpeg.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_forward.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_hds.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_heartbeat.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_hls.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_http_api.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_http_client.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_http_conn.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_http_hooks.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_http_static.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_http_stream.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_ingest.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_listener.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_log.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_mpegts_udp.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_pithy_print.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_recv_thread.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_refer.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_reload.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_rtmp_conn.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_rtsp.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_security.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_server.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_source.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_st.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_statistic.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_thread.hpp" />
+    <ClInclude Include="..\..\src\app\srs_app_utility.hpp" />
+    <ClInclude Include="..\..\src\core\srs_core.hpp" />
+    <ClInclude Include="..\..\src\core\srs_core_autofree.hpp" />
+    <ClInclude Include="..\..\src\core\srs_core_mem_watch.hpp" />
+    <ClInclude Include="..\..\src\core\srs_core_performance.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_aac.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_buffer.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_codec.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_consts.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_error.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_file.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_flv.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_log.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_mp3.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_stream.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_ts.hpp" />
+    <ClInclude Include="..\..\src\kernel\srs_kernel_utility.hpp" />
+    <ClInclude Include="..\..\src\libs\srs_librtmp.hpp" />
+    <ClInclude Include="..\..\src\libs\srs_lib_bandwidth.hpp" />
+    <ClInclude Include="..\..\src\libs\srs_lib_simple_socket.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_http_stack.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_protocol_buffer.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_protocol_json.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_protocol_kbps.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_raw_avc.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_rtmp_amf0.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_rtmp_handshake.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_rtmp_io.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_rtmp_msg_array.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_rtmp_stack.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_rtmp_utility.hpp" />
+    <ClInclude Include="..\..\src\protocol\srs_rtsp_stack.hpp" />
+    <ClInclude Include="..\..\src\utest\srs_utest.hpp" />
+    <ClInclude Include="..\..\src\utest\srs_utest_amf0.hpp" />
+    <ClInclude Include="..\..\src\utest\srs_utest_config.hpp" />
+    <ClInclude Include="..\..\src\utest\srs_utest_core.hpp" />
+    <ClInclude Include="..\..\src\utest\srs_utest_kernel.hpp" />
+    <ClInclude Include="..\..\src\utest\srs_utest_protocol.hpp" />
+    <ClInclude Include="..\..\src\utest\srs_utest_reload.hpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9b62eb05-604e-4764-892a-47a12cc2e68b}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>srs</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\workst\3rdparty\srs\trunk\3rdparty-src\st;D:\workst\3rdparty\srs\trunk\src\protocol;D:\workst\3rdparty\srs\trunk\src\libs;D:\workst\3rdparty\srs\trunk\src\kernel;D:\workst\3rdparty\srs\trunk\src\core;D:\workst\3rdparty\srs\trunk\src\app;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
